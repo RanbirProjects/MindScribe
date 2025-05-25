@@ -1,6 +1,6 @@
-# Blog App using MERN Stack
+# BlogVerse
 
-Welcome to the Blog App repository! This application is built using the MERN (MongoDB, Express, React, Node.js) stack and comes with various functionalities to manage and share your blogs.
+A modern, full-stack blogging platform built with MERN stack. Create, share, and discover engaging content with a sleek, user-friendly interface. Features secure authentication, real-time updates, and seamless content management. Perfect for writers, developers, and content creators to express their thoughts and connect with readers worldwide.
 
 ## Functionalities
 
@@ -25,5 +25,32 @@ To get started with this project, follow these steps:
 1. Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/Blog-App-using-MERN-stack.git
+git clone https://github.com/your-username/BlogVerse.git
 ```
+
+2. Install dependencies for both client and server:
+```bash
+# Install server dependencies
+cd server
+npm install
+
+# Install client dependencies
+cd ../client
+npm install
+```
+
+3. Start the development servers:
+```bash
+# Start server (from server directory)
+npm run dev
+
+# Start client (from client directory)
+npm start
+```
+
+## Tech Stack
+
+- **Frontend:** React.js, Redux, Material-UI
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Authentication:** JWT
